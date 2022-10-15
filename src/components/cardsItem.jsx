@@ -48,7 +48,7 @@ export  function Cards() {
   return (
 
     <div className='flex flex-col w-full '>
-      <div className='flex justify-between items-center w-full p-10 sticky top-0 z-10 bg-gray-50'>
+      <div className=' lg:flex hidden justify-between items-center w-full p-10 sticky top-0 z-10 bg-gray-50'>
         <div>
         <p className='text-3xl text-gray-600 font-bold'>Perfiles populares</p>
         <p className=' text-gray-400 '>Aca podras encontras los perfiles mas populares del mundo </p>
