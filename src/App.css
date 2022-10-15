@@ -1,0 +1,42 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+.one{
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+.three{
+  -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+
+input:focus-visible{ 
+    box-shadow: none !important;
+  }
+
+  input:focus{ 
+    box-shadow: none !important;
+  }
+
+  input:focus-within{ 
+    box-shadow: none !important;
+  }
+
+
+.gridd{
+display: grid;
+justify-items: center;
+grid-column-gap: 30px;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
